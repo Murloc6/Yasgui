@@ -1,7 +1,7 @@
 {
   "name": "@logilab/yasgui",
   "description": "Yet Another SPARQL GUI",
-  "version": "4.2.29",
+  "version": "4.2.30",
   "main": "build/yasgui.min.js",
   "types": "build/ts/src/index.d.ts",
   "license": "MIT",
@@ -26,10 +26,10 @@
     "prepublishOnly": "./../../bin/checkPackageVersions.sh && cd ../.. && yarn run build"
   },
   "dependencies": {
-    "@tarekraafat/autocomplete.js": "^7.2.0",
     "@logilab/yasgui-utils": "^4.2.29",
-    "@logilab/yasqe": "^4.2.29",
-    "@logilab/yasr": "^4.2.29",
+    "@logilab/yasqe": "^4.2.30",
+    "@logilab/yasr": "^4.2.30",
+    "@tarekraafat/autocomplete.js": "^7.2.0",
     "@types/lodash-es": "^4.17.3",
     "autosuggest-highlight": "^3.1.1",
     "blueimp-md5": "^2.12.0",

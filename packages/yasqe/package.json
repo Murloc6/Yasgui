@@ -1,7 +1,7 @@
 {
   "name": "@logilab/yasqe",
   "description": "Yet Another SPARQL Query Editor",
-  "version": "4.2.29",
+  "version": "4.2.30",
   "main": "build/yasqe.min.js",
   "types": "build/ts/src/index.d.ts",
   "license": "MIT",
